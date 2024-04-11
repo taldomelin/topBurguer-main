@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('email')->nullable(false);
             $table->string('cpf')->nullable(false);
             $table->string('password')->nullable(false);
-            $table->any('foto')->nullable(false);
+            $table->string('foto')->nullable(false);
             $table->timestamps();
         });
     }
